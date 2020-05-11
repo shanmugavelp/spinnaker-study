@@ -57,7 +57,7 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /mild-temper(/|$)(.*)
+                    -   path: /golden-monitoring(/|$)(.*)
                         backend:
                             serviceName: golden-monitoring-microservice-service
                             servicePort: 30201
